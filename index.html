@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LaserPig - Online Game</title>
+    <meta name="description" content="LaserPig, the most extreme arcade flying game! Fly far and collect as much as possible!" />
+    <meta name="keywords" content="online game, game, laserpig, laser, pig, laser pig, arcade, arcade games, flying" />
+    <meta name="author" content="GameNamiX" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <script>
+        WebFontConfig = {
+            custom: {
+                families: ['Orbitron']
+            },
+            loading: function () {
+                console.log('loading font');
+            },
+            active: function () {
+                console.log('font loaded');
+                window.fontsAreLoaded = true;
+            }
+        };
+    </script>
+    <script src="js/library/webfont.js"></script>
+
+    <style>
+        @font-face {
+            font-family: "Orbitron";
+            src: url("assets/fonts/Inconsolata-Bold.ttf");
+        }
+    </style>
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <!-- Phaser Library -->
+    <!-- game states -->
+    <!-- prefabs -->
+    <!-- menu prefabs -->
+    <script src="bin/LaserPig.min.js"></script>
+
+</head>
+
+<body oncontextmenu="return false;">
+    <!-- e.g. x10 -->
+    <div id="multiplier"></div>
+
+    <div class="stats-wrapper" id="stats-wrapper">
+        <div id="score">Score: 0</div>
+        <div id="distance">Distance: 0</div>
+        <div id="piggybank" style="font-size: 127.375px;"></div>
+        <div id="level"></div>
+        <div id="highscore"></div>
+    </div>
+
+
+
+
+
+
+
+    <div class="by-gamenamix">
+        <a href="http://gamenamix.com/">
+            <img src="by_gamenamix.png" />
+        </a>
+    </div>
+
+    <div class="all-container">
+
+        <div id="game-container"></div>
+
+    </div>
+
+
+
+
+
+
+
+    <!-- this is where the game gets started -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

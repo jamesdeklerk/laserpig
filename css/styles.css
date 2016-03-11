@@ -1,0 +1,143 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#fps {
+    position: fixed;
+    bottom: 0;
+    left: 200px;
+    font-size: 5em;
+    padding: 0.2em;
+    z-index: 2;
+}
+
+#multiplier {
+    position: fixed;
+    font-family: "Orbitron", sans-serif;
+    top: 10px;
+    left: 50%;
+    font-size: 2em;
+    z-index: 3;
+    color: #f3f3f3;
+    display: none;
+}
+
+#piggybank {
+    font-family: "Orbitron", sans-serif;
+    position: relative;
+    float: left;
+/*    font-size: 127.375px;*/
+    z-index: 2;
+    color: #f3f3f3;
+    display: none;
+    clear: both;
+}
+
+#level {
+    font-family: "Orbitron", sans-serif;
+    position: relative;
+    float: left;
+    font-size: 100%;
+    z-index: 2;
+    color: #f3f3f3;
+    display: none;
+    clear: both;
+}
+
+#highscore {
+    font-family: "Orbitron", sans-serif;
+    position: relative;
+    float: left;
+    font-size: 100%;
+    z-index: 2;
+    color: #f3f3f3;
+    display: none;
+    clear: both;
+}
+
+#score {
+    font-family: "Orbitron", sans-serif;
+    position: relative;
+    float: right;
+    font-size: 2em;
+    z-index: 2;
+    color: #f3f3f3;
+    display: none;
+    clear: both;
+}
+
+#distance {
+    font-family: "Orbitron", sans-serif;
+    position: relative;
+    float: right;
+    font-size: 2em;
+    z-index: 2;
+    color: #f3f3f3;
+    display: none;
+    clear: both;
+}
+
+.stats-wrapper {
+    position: fixed;
+    display: block;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------Site CSS------------------------------------------------ */
+
+.all-container {
+    position: relative;
+    width: 100%;
+    display: block;
+    /* background-color: blue; */
+    z-index: 1;
+}
+
+#game-container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: 450px;
+    /* background-color: orange; */
+    overflow: hidden;
+    z-index: 1;
+}
+
+#game-controller canvas {
+    height: inherit;
+}
+
+.by-gamenamix {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.by-gamenamix a {
+    display: inline-block;
+}
+
+.by-gamenamix img {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
