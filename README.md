@@ -1,4 +1,4 @@
-# LaserPig the online game
+# LaserPig – Online Game
 
 LaserPig is all about Timmy. Timmy’s mission is to fly to the limit and collect his snacks. <br>
 **Developed using the Phaser game framework (http://phaser.io/).**
@@ -7,9 +7,15 @@ LaserPig is all about Timmy. Timmy’s mission is to fly to the limit and collec
     <img src ="images/timmy.png" width="30%"/>
 </div>
 
+---
+
+## About
+
 LaserPig is a challenging and exciting arcade flying game. You play as Timmy the pig flying with his jet packs avoiding lethal lasers while trying to collect his favorite snacks including burgers, pizzas and more! Fly far and collect as much as possible! <br>
-UNLOCK difficulty levels and high powered jet packs by getting high scores and earning Credits in your Piggy Bank!
+**Unlock** difficulty levels and high powered jet packs by getting high scores and earning Credits in your Piggy Bank!
 Dodge Lasers through near-impossible gaps and try get past the rotating lasers!
+
+---
 
 <div style="width: 100%; text-align:center;">
     <img src ="images/1.menu-screen.png" width="80%"/>
@@ -22,9 +28,9 @@ Dodge Lasers through near-impossible gaps and try get past the rotating lasers!
 ---
 
 ### How to play:
-- Tap LEFT side of screen to go up.
-- Tap RIGHT side of screen to go down.
-- Tap the Boost button for extra speed and points.
+- Tap *left* side of screen to go up.
+- Tap *right* side of screen to go down.
+- Tap the *Boost* button for extra speed and points.
 
 ### Features:
 - Unlock Levels and jet packs by earning credits.
