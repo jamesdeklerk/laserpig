@@ -1,7 +1,9 @@
 # LaserPig – Online Game
 
 LaserPig is all about Timmy. Timmy’s mission is to fly to the limit and collect his snacks. <br>
-**Developed using the Phaser game framework (http://phaser.io/).**
+**Play LaserPig Online: https://jamesdeklerk.github.io/laserpig/**
+
+*Developed using the Phaser game framework (http://phaser.io/).*
 
 <div style="width: 100%; text-align:center;">
     <img src ="images/timmy.png" width="30%"/>
